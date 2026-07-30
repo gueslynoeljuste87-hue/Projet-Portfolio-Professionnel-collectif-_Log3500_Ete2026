@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+  <rect width="1400" height="900" fill="white"/>
+  <text x="700" y="50" text-anchor="middle" font-size="28" font-family="Arial" font-weight="bold">Diagramme d'architecture du projet LOG3500</text>
+
+  <rect x="80" y="120" width="1180" height="700" rx="20" ry="20" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+
+  <rect x="130" y="180" width="320" height="220" rx="15" ry="15" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <text x="290" y="220" text-anchor="middle" font-size="22" font-family="Arial" font-weight="bold">Frontend</text>
+  <text x="290" y="255" text-anchor="middle" font-size="18" font-family="Arial">React + Vite</text>
+  <text x="290" y="285" text-anchor="middle" font-size="18" font-family="Arial">Pages : Home, Team,</text>
+  <text x="290" y="310" text-anchor="middle" font-size="18" font-family="Arial">Projects, Contact</text>
+  <text x="290" y="340" text-anchor="middle" font-size="18" font-family="Arial">ThemeContext</text>
+
+  <rect x="540" y="180" width="320" height="220" rx="15" ry="15" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="700" y="220" text-anchor="middle" font-size="22" font-family="Arial" font-weight="bold">Backend</text>
+  <text x="700" y="255" text-anchor="middle" font-size="18" font-family="Arial">Express.js</text>
+  <text x="700" y="285" text-anchor="middle" font-size="18" font-family="Arial">Route /api/contact</text>
+  <text x="700" y="315" text-anchor="middle" font-size="18" font-family="Arial">Traitement des messages</text>
+  <text x="700" y="345" text-anchor="middle" font-size="18" font-family="Arial">Servir les fichiers statiques</text>
+
+  <rect x="950" y="180" width="250" height="220" rx="15" ry="15" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+  <text x="1075" y="220" text-anchor="middle" font-size="22" font-family="Arial" font-weight="bold">Base de données</text>
+  <text x="1075" y="255" text-anchor="middle" font-size="18" font-family="Arial">messages.json</text>
+  <text x="1075" y="285" text-anchor="middle" font-size="18" font-family="Arial">Stockage local</text>
+  <text x="1075" y="315" text-anchor="middle" font-size="18" font-family="Arial">Sauvegarde des</text>
+  <text x="1075" y="345" text-anchor="middle" font-size="18" font-family="Arial">messages reçus</text>
+
+  <rect x="330" y="500" width="740" height="220" rx="15" ry="15" fill="#f3e8ff" stroke="#9333ea" stroke-width="2"/>
+  <text x="700" y="545" text-anchor="middle" font-size="22" font-family="Arial" font-weight="bold">Déploiement</text>
+  <text x="700" y="585" text-anchor="middle" font-size="18" font-family="Arial">Build Vite : npm run build</text>
+  <text x="700" y="620" text-anchor="middle" font-size="18" font-family="Arial">Production : dist/</text>
+  <text x="700" y="655" text-anchor="middle" font-size="18" font-family="Arial">Serveur Express : npm start</text>
+  <text x="700" y="690" text-anchor="middle" font-size="18" font-family="Arial">Plateforme : Render / Vercel / Railway</text>
+
+  <line x1="450" y1="290" x2="540" y2="290" stroke="#64748b" stroke-width="3"/>
+  <line x1="860" y1="290" x2="950" y2="290" stroke="#64748b" stroke-width="3"/>
+  <line x1="700" y1="400" x2="700" y2="500" stroke="#64748b" stroke-width="3"/>
+</svg>
